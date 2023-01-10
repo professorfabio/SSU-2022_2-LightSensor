@@ -3,9 +3,8 @@
 import RPi.GPIO as GPIO
 import time
 
-__author__ = 'Gus (Adapted from Adafruit)'
+__author__ = 'Adapted from Adafruit'
 __license__ = "GPL"
-__maintainer__ = "pimylifeup.com"
 
 GPIO.setmode(GPIO.BOARD)
 
