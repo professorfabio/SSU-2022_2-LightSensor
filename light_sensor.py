@@ -33,7 +33,12 @@ def rc_time (pin_to_circuit):
 try:
     # Main loop
     while True:
-        print(rc_time(pin_to_circuit))
+        light_level = rc_time(pin_to_circuit)
+        #print(rc_time(pin_to_circuit))
+        if light_level < 20:
+            print (`Day`)
+        else:
+            print (`Night`)
 except KeyboardInterrupt:
     pass
 finally:
